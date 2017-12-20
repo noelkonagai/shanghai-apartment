@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+	<head>
+		<title>Metro Apt Viz</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Questrial" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.js"></script>
+	</head>
+
+	<body>
+
+		<div class="navbar">
+			<a href="https://noelkonagai.github.io/shanghai-apartment/">Home</a>
+			<a href="https://github.com/noelkonagai">Github</a>
+		</div>
+		
+		<section class='container'>
+			<div class='left'>
+				<h1>The average price on 
+						<div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn">Line 1</button>
+								<div id="myDropdown" class="dropdown-content">
+									<a href="#">Line 2</a>
+									<a href="#">Line 3</a>
+									<a href="#">Line 4</a>
+								</div>
+						</div>
+				for a 2br apartment</h1>
+			</div>
+
+			<div class='right' id='svg'>
+				<!-- this is where SVG comes -->
+			</div>
+		</section>
+<!-- 		<form>
+		    <label><input type="radio" name="dataset" id="dataset" value="total" checked> Line 1</label>
+		    <label><input type="radio" name="dataset" id="dataset" value="option1"> Line 2</label>
+		    <label><input type="radio" name="dataset" id="dataset" value="option2"> Line 3</label>
+		</form> -->
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
