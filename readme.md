@@ -27,6 +27,6 @@ X:
 - station_2: the second closest metro station to the apartment
 - dist_1: the distance to station_1
 - dist_2: the distance to station_2
---------------------------------------
+
 Y:
 - price: the monthly rental price of the apartment in RMB
