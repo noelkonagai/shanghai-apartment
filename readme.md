@@ -2,8 +2,11 @@
 
 This project aims to create a demonstration of how TensorFlow may be implemented in a research setting for students and researchers alike. This project scraped apartment pricing data from Zhongyuan, subsequently analyzed the data, and developed a Deep Neural Network Regression model to predict the price of the apartments. This project was conducted in Fall of 2017 as part of the Technology Enhanced Education Fellowship.
 
+## Sample visualization with D3.js
+
+You can view a [sample visualization](https://noelkonagai.github.io/shanghai-apartment/) with D3.js that aimed to demonstrate the capacity of D3.js in an academic setting.
+
 ## Data Description
---------------------------------------
 X:
 - id: the ID of the listing in the original database
 - listing: the original wording of the listing
